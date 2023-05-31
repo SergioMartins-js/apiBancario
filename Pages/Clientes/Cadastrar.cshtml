@@ -1,0 +1,26 @@
+﻿@page
+@model apiBancario.Pages.Clientes.CadastrarModel
+
+<h1>Cadastrar Cliente</h1>
+
+<form method="post">
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="Nome" asp-for="Cliente.Nome" />
+    </div>
+    <div>
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="Endereco" asp-for="Cliente.Endereco" />
+    </div>
+    <div>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="Telefone" asp-for="Cliente.Telefone" />
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="Email" asp-for="Cliente.Email" />
+    </div>
+    <div>
+        <input type="submit" value="Cadastrar" />
+    </div>
+</form>
