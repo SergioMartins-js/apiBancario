@@ -61,7 +61,3 @@ namespace apiBancario
     }
 }
 
-/*teste comentário*/
-
-/*teste*/
-/*teste*/
